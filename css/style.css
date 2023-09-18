@@ -87,7 +87,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     border-color: #0389ff; }
     .btn.btn-primary:hover {
       border-color: #1793ff;
-      background: #1793ff; }
+      background: #1793ff; 
+      color: white;
+    }
   .btn.btn-black {
     background: #000000;
     color: #ffffff; }
@@ -1102,13 +1104,18 @@ figure.dotted-bg {
   height: 100%;
   border-radius: 4px; }
   .post-entry .thumb img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    max-height: 250px;
     -webkit-transition: .15s all ease;
     -o-transition: .15s all ease;
     transition: .15s all ease; }
   .post-entry .thumb:hover img {
-    -webkit-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    transform: scale(1.02); }
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
 
 .post-entry h3 {
   font-size: 18px;
@@ -1119,13 +1126,13 @@ figure.dotted-bg {
 
 .post-entry .post-meta {
   margin-bottom: 10px;
-  font-size: 14px; 
+  font-size: 14px;
 }
   .post-entry .post-meta a {
     color: #000000; }
 
   .post-entry-link{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
 .lines-wrap {
@@ -1677,3 +1684,8 @@ figure.dotted-bg {
       .site-footer .social li a:hover {
         background: #36a1ff;
         color: #ffffff; }
+
+
+.skillset{
+  padding-bottom: 15px;
+}
