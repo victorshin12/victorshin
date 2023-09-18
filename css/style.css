@@ -1124,6 +1124,10 @@ figure.dotted-bg {
   .post-entry .post-meta a {
     color: #000000; }
 
+  .post-entry-link{
+    margin-bottom: 20px;
+  }
+
 .lines-wrap {
   position: fixed;
   z-index: -1;
